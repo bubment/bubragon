@@ -31,6 +31,7 @@ export async function getStaticProps() {
 export default function Home({ users}) {
   return (
     <div>
+      <h1>Deployment test</h1>
       {/* <h1>Fetched Data:</h1> */}
       {/* <pre>{JSON.stringify(users.data, null, 2)}</pre> */}
       <h2>{users.data.name}</h2>
